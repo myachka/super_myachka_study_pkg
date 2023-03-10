@@ -202,3 +202,10 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+def main():
+    print(f"Hello ROS World!")
+
+
+if __name__ == "__main__":
+    main()
+    
